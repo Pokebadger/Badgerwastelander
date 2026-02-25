@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Badger Wasteland</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ═══════════════════════ NAV ═══════════════════════ -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav__logo">
+      <div class="nav__logo-text">Badger Wasteland</div>
+    </a>
+    <ul class="nav__links">
+      <li><a href="index.html"  class="active">Home</a></li>
+      <li><a href="roadmap.html">Roadmap</a></li>
+      <li><a href="nft.html">NFTs</a></li>
+      <li><a href="utilities.html">Utilities</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+    <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span class="nav__hamburger-bar"></span>
+      <span class="nav__hamburger-bar"></span>
+      <span class="nav__hamburger-bar"></span>
+    </button>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="nav__drawer" id="drawer" aria-hidden="true">
+    <ul class="nav__drawer-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="roadmap.html">Roadmap</a></li>
+      <li><a href="nft.html">NFTs</a></li>
+      <li><a href="utilities.html">Utilities</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO SECTION  -->
+  <section class="hero">
+    <div class="hero__split">
+
+      <!-- Left: title -->
+      <div class="hero__title-cell">
+        <p class="hero__eyebrow">Web3 · Built on TON</p>
+        <h1 class="hero__title">
+          Introducing Badger <br>Wasteland
+          on TON
+        </h1>
+        <p class="hero__tagline">Evolve, Develop, Thrive</p>
+      </div>
+
+      <div class="hero__image-cell">
+        <img src="./assets/Materials/TON.png" alt="ton-ecosystem">
+      </div>
+
+    </div>
+
+    <!-- Bottom: paragraph + CTA -->
+    <div class="hero__bottom">
+      <p class="hero__paragraph">
+        As a web3 development project built on TON, Badger Wasteland provides innovative solutions
+        for today's digital world. Our reach extends across blockchains, enabling unique opportunities
+        in networking, clientele, and offered services. Over the past year and a half, we have forged
+        a foundation designed to withstand adversity and flourish sustainably.
+      </p>
+      <a href="#cards" class="btn btn--primary">
+        Explore <span class="btn__arrow">↓</span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- CARD HUB SECTION -->
+<section class="card-hub" id="cards">
+  <div class="card-hub__container">
+    <div class="card-hub__header">
+      <h2 class="card-hub__title">Explore the Wasteland</h2>
+      <p class="card-hub__subtitle">Navigate through our ecosystem</p>
+    </div>
+
+    <div class="card-hub__grid">
+      <!-- Roadmap Card -->
+      <a href="roadmap.html" class="card card--roadmap">
+        <div class="card__content">
+          <h3 class="card__title">Roadmap</h3>
+          <p class="card__description">
+            4-phase development timeline showcasing our journey from NFT launch to token ecosystem and beyond.
+          </p>
+          <span class="card__cta">Explore Timeline <span class="card__arrow">→</span></span>
+        </div>
+        <div class="card__accent"></div>
+      </a>
+
+      <!-- NFT Collections Card -->
+      <a href="nft.html" class="card card--nft">
+        <div class="card__content">
+          <h3 class="card__title">NFT Collections</h3>
+          <p class="card__description">
+            Discover Badger Wasteland and Badger Coins with upgradable metadata and holder benefits.
+          </p>
+          <span class="card__cta">View Collections <span class="card__arrow">→</span></span>
+        </div>
+        <div class="card__accent"></div>
+      </a>
+
+      <!-- Utilities & Services Card -->
+      <a href="utilities.html" class="card card--utilities">
+        <div class="card__content">
+          <h3 class="card__title">Utilities & Services</h3>
+          <p class="card__description">
+            Notification bot, holder portal, mini-app, and gaming experience all in one ecosystem.
+          </p>
+          <span class="card__cta">Discover Tools <span class="card__arrow">→</span></span>
+        </div>
+        <div class="card__accent"></div>
+      </a>
+
+      <!-- Team Card -->
+      <a href="team.html" class="card card--team">
+        <div class="card__content">
+          <h3 class="card__title">Team</h3>
+          <p class="card__description">
+            Meet the badgers behind the wasteland and connect through our important links.
+          </p>
+          <span class="card__cta">Meet Us <span class="card__arrow">→</span></span>
+        </div>
+        <div class="card__accent"></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER  -->
+<footer class="footer">
+  <div class="footer__container">
+    
+    <!-- Footer Top -->
+    <div class="footer__top">
+      <div class="footer__branding">
+        <div class="footer__logo">Badger Wasteland</div>
+        <p class="footer__tagline">Evolve, Develop, Thrive</p>
+      </div>
+
+      <div class="footer__links-grid">
+        <!-- Navigation Links -->
+        <div class="footer__column">
+          <h4 class="footer__column-title">Navigation</h4>
+          <ul class="footer__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="nft.html">NFTs</a></li>
+            <li><a href="utilities.html">Utilities</a></li>
+            <li><a href="team.html">Team</a></li>
+          </ul>
+        </div>
+
+        <!-- Community Links -->
+        <div class="footer__column">
+          <h4 class="footer__column-title">Community</h4>
+          <ul class="footer__list">
+            <li><a href="https://t.me/badger_wasteland" target="_blank">Telegram Channel</a></li>
+            <li><a href="https://t.me/Badger_Wasteland_Chat" target="_blank">Telegram Chat</a></li>
+            <li><a href="https://x.com/BadgerWasteland" target="_blank">X (Twitter)</a></li>
+            <li><a href="https://discord.gg/NGC7rSsNMF" target="_blank">Discord</a></li>
+            <li><a href="https://www.tiktok.com/@badgerwasteland" target="_blank">TikTok</a></li>
+          </ul>
+        </div>
+
+        <!-- NFT Marketplaces -->
+        <div class="footer__column">
+          <h4 class="footer__column-title">NFT Marketplaces</h4>
+          <ul class="footer__list">
+            <li><a href="https://getgems.io/badgerwasteland" target="_blank">Badger Wasteland</a></li>
+            <li><a href="https://getgems.io/badgercoins" target="_blank">Badger Coins</a></li>
+            <li><a href="https://hotcraft.art" target="_blank">Hotcraft</a></li>
+            <li><a href="https://marketapp.ws" target="_blank">Marketapp</a></li>
+            <li><a href="https://xrare.io" target="_blank">xRare</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer__column">
+          <h4 class="footer__column-title">Services</h4>
+          <ul class="footer__list">
+            <li><a href="https://linktr.ee/badgerwasteland" target="_blank">Link Tree</a></li>
+            <li><a href="mailto:badgerwasteland@gmail.com">Contact Us</a></li>
+            <li><a href="#">NFT Bot Order Form</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Links -->
+    <div class="footer__socials">
+      <a href="https://t.me/badger_wasteland" class="footer__social-link" aria-label="Telegram">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.161.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.328-.373-.115l-6.869 4.334-2.961-.924c-.643-.204-.657-.643.136-.953l11.566-4.453c.542-.211 1.065.122.876.997z"/>
+        </svg>
+      </a>
+      <a href="https://x.com/BadgerWasteland" class="footer__social-link" aria-label="X (Twitter)">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.6l-5.165-6.75-5.937 6.75h-3.31l7.73-8.835L2.42 2.25h6.552l4.666 6.16L17.316 2.25h.928zm-1.05 17.365h1.83L7.04 4.144H5.074z"/>
+        </svg>
+      </a>
+      <a href="https://discord.gg/NGC7rSsNMF" class="footer__social-link" aria-label="Discord">
+        <svg viewBox="0 0 127.14 96.36" fill="currentColor">
+          <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0A105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a77.15,77.15,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.22,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60.55,31,53.88s5-11.81,11.47-11.81S53.89,47.16,53.89,53.88,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60.55,73.25,53.88s5-11.81,11.47-11.81S96.11,47.16,96.11,53.88,91.06,65.69,84.69,65.69Z"/>
+        </svg>
+      </a>
+      <a href="https://www.tiktok.com/@badgerwasteland" class="footer__social-link" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.66 0 2.89 2.89 0 0 1 5.66 0v-3.3a6.93 6.93 0 0 0-6.92 6.92 6.93 6.93 0 0 0 11.15-3.44V6.69z"/>
+        </svg>
+      </a>
+      <a href="https://linktr.ee/badgerwasteland" class="footer__social-link" aria-label="Linktree">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; 2025 Badger Wasteland. All rights reserved.</p>
+      <p class="footer__tagline-bottom">Web3 · Built on TON</p>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
