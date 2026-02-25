@@ -11,7 +11,7 @@ const galleryImages = [
   },
   {
     name: "Bar Scene",
-    path: "/assets/Materials/gallery/Bar_Scene_.jpg",
+    path: "/assets/Materials/gallery/Bar_Scene.jpg",
     category: "Scene"
   },
   {
@@ -41,7 +41,7 @@ const galleryImages = [
   },
   {
     name: "Caesar's Legion",
-    path: "/assets/Materials/gallery/Ceasar_s_Legion.jpg",
+    path: "/assets/Materials/gallery/Ceasars_Legion.jpg",
     category: "Outfit"
   },
   {
@@ -100,3 +100,4 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
