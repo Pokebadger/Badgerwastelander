@@ -1,7 +1,7 @@
 const galleryImages = [
   {
     name: "Annoyed",
-    path: "assets/materials/Annoyed.jpg",
+    path: "/assets/materials/Annoyed.jpg",
     category: "Expression"
   },
   {
@@ -101,4 +101,5 @@ const galleryImages = [
   }
 
 ];
+
 
