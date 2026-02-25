@@ -41,7 +41,7 @@ const galleryImages = [
   },
   {
     name: "Caesar's Legion",
-    path: "/assets/Materials/gallery/Ceasars_Legion.jpg",
+    path: "assets/Materials/gallery/Ceasars_Legion.jpg",
     category: "Outfit"
   },
   {
@@ -100,4 +100,5 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
 
