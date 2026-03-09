@@ -1,27 +1,27 @@
 const galleryImages = [
   {
-    name: "Annoyed",
-    path: "/assets/Materials/gallery/Annoyed.jpg",
-    category: "Expression"
+    name: "Black Tie",
+    path: "/assets/Materials/gallery/Black_Tie.jpg",
+    category: "Outfit"
   },
   {
-    name: "Archery",
-    path: "/assets/Materials/gallery/Archery.jpg",
-    category: "Weapon"
-  },
-  {
-    name: "Bar Scene",
-    path: "/assets/Materials/gallery/Bar_Scene.jpg",
+    name: "Pixel Warrior",
+    path: "/assets/Materials/gallery/Pixel_Warrior.jpg",
     category: "Scene"
   },
   {
-    name: "BG Galaxy",
-    path: "/assets/Materials/gallery/BG_Galaxy.jpg",
-    category: "Background"
+    name: "Power Suit",
+    path: "/assets/Materials/gallery/Power_suit.jpg",
+    category: "Outfit"
   },
   {
-    name: "BG Nebula",
-    path: "/assets/Materials/gallery/BG_Nebula_2.jpg",
+    name: "Buff Badger",
+    path: "/assets/Materials/gallery/Buff_Badger.jpg",
+    category: "Trait"
+  },
+  {
+    name: "Cosmic Explorer",
+    path: "/assets/Materials/gallery/Cosmic.jpg",
     category: "Background"
   },
   {
@@ -100,5 +100,6 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
 
 
