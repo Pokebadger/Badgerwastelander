@@ -25,23 +25,23 @@ const galleryImages = [
     category: "Background"
   },
   {
-    name: "Caesar Eye Patch",
+    name: "Snowboard Badger",
     path: "/assets/Materials/gallery/Snowboard_Badger.jpg",
-    category: "Accessory"
+    category: "Outfit"
   },
   {
-    name: "Cave Ghost",
+    name: "Yacht Naked Salute",
     path: "/assets/Materials/gallery/Yacht_Naked_Salute.jpg",
-    category: "Scene"
+    category: "Background"
   },
   {
-    name: "Cave Glasses HUD",
+    name: "Skate Badger",
     path: "/assets/Materials/gallery/Skate_Badger.jpg",
     category: "Accessory"
   },
   {
-    name: "Caesar's Legion",
-    path: "assets/Materials/gallery/Ceasars_Legion.jpg",
+    name: "Recon Sambrero Mustache",
+    path: "assets/Materials/gallery/Recon_Sambrero_Mustache.jpg",
     category: "Outfit"
   },
   {
@@ -100,6 +100,7 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
 
 
 
