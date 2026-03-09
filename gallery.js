@@ -26,17 +26,17 @@ const galleryImages = [
   },
   {
     name: "Caesar Eye Patch",
-    path: "/assets/Materials/gallery/Caesar_Eye_Patch.jpg",
+    path: "/assets/Materials/gallery/Snowboard_Badger.jpg",
     category: "Accessory"
   },
   {
     name: "Cave Ghost",
-    path: "/assets/Materials/gallery/Cave_Ghost.jpg",
+    path: "/assets/Materials/gallery/Yacht_Naked_Salute.jpg",
     category: "Scene"
   },
   {
     name: "Cave Glasses HUD",
-    path: "/assets/Materials/gallery/Cave_Glasses_HUD.jpg",
+    path: "/assets/Materials/gallery/Skate_Badger.jpg",
     category: "Accessory"
   },
   {
@@ -100,6 +100,7 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
 
 
 
