@@ -1334,8 +1334,13 @@ body {
 }
 
 .personal-image {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 150px;
+}
+
+.personal-image1 {
+  width: 170px;
+  height: 180px;
 }
 
 /* ── Responsive ── */
