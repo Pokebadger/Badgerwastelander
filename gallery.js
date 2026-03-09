@@ -1,7 +1,7 @@
 const galleryImages = [
   {
     name: "Black Tie",
-    path: "/assets/Materials/gallery/Black_Tie.jpg",
+    path: "/assets/Materials/gallery/Black_Tie.png",
     category: "Outfit"
   },
   {
@@ -11,12 +11,12 @@ const galleryImages = [
   },
   {
     name: "Power Suit",
-    path: "/assets/Materials/gallery/Power_suit.jpg",
+    path: "/assets/Materials/gallery/Power_suit.png",
     category: "Outfit"
   },
   {
     name: "Buff Badger",
-    path: "/assets/Materials/gallery/Buff_Badger.jpg",
+    path: "/assets/Materials/gallery/Buff_Badger.png",
     category: "Trait"
   },
   {
@@ -100,6 +100,7 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
 
 
 
