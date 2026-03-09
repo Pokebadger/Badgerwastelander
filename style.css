@@ -1105,7 +1105,7 @@ body {
 /* ── Litepaper Section ── */
 .roadmap__litepaper-section {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 
 .roadmap__litepaper-link {
@@ -1114,7 +1114,7 @@ body {
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: var(--offwhite);
+  color: var(--khaki-dark);
   background: linear-gradient(135deg, var(--tan) 0%, var(--tan-light) 100%);
   padding: 0.8rem 2rem;
   border-radius: 6px;
