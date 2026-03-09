@@ -1,7 +1,7 @@
 const galleryImages = [
   {
     name: "Black Tie",
-    path: "/assets/Materials/gallery/Black_Tie.jpg",
+    path: "/assets/Materials/gallery/Black_tie.jpg",
     category: "Outfit"
   },
   {
@@ -100,6 +100,7 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
 
 
 
