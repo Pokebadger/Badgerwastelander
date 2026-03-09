@@ -37,7 +37,7 @@ const galleryImages = [
   {
     name: "Skate Badger",
     path: "/assets/Materials/gallery/Skate_Badger.jpg",
-    category: "Accessory"
+    category: "Background"
   },
   {
     name: "Recon Sambrero Mustache",
@@ -100,6 +100,7 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
 
 
 
