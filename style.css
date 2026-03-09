@@ -1102,6 +1102,32 @@ body {
   display: none;
 }
 
+/* ── Litepaper Section ── */
+.roadmap__litepaper-section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.roadmap__litepaper-link {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--offwhite);
+  background: linear-gradient(135deg, var(--tan) 0%, var(--tan-light) 100%);
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.35s ease;
+  box-shadow: 0 8px 24px rgba(180, 140, 70, 0.2);
+}
+
+.roadmap__litepaper-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(180, 140, 70, 0.35);
+}
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
   .roadmap {
