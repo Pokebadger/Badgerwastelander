@@ -1333,6 +1333,11 @@ body {
   width: 100%;
 }
 
+.personal-image {
+  width: 200px;
+  height: 200px;
+}
+
 /* ── Responsive ── */
 @media (max-width: 1024px) {
   .team__grid {
