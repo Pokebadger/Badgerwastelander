@@ -2121,7 +2121,7 @@ body {
   height: 120px;
   object-fit: cover;
   border-radius: 8px;
-  border: 2px solid var(--border);
+  /* border: 2px solid var(--border); */
   transition: all 0.35s ease;
 }
 
