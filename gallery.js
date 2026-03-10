@@ -1,30 +1,5 @@
 const galleryImages = [
   {
-    name: "Black Tie",
-    path: "/assets/Materials/gallery/Black_Tie.png",
-    category: "Outfit"
-  },
-  {
-    name: "Pixel Warrior",
-    path: "/assets/Materials/gallery/Pixel_Warrior.jpg",
-    category: "Scene"
-  },
-  {
-    name: "Power Suit",
-    path: "/assets/Materials/gallery/Power_suit.png",
-    category: "Outfit"
-  },
-  {
-    name: "Buff Badger",
-    path: "/assets/Materials/gallery/Buff_Badger.png",
-    category: "Trait"
-  },
-  {
-    name: "Cosmic Explorer",
-    path: "/assets/Materials/gallery/Cosmic.jpg",
-    category: "Background"
-  },
-  {
     name: "Snowboard Badger",
     path: "/assets/Materials/gallery/Snowboard_Badger.jpg",
     category: "Outfit"
@@ -49,6 +24,56 @@ const galleryImages = [
     path: "/assets/Materials/gallery/Cigar_Cowboy_Hat.jpg",
     category: "Accessory"
   },
+   {
+    name: "Annoyed",
+    path: "/assets/Materials/gallery/Annoyed.jpg",
+    category: "Expression"
+  },
+  {
+    name: "Archery",
+    path: "/assets/Materials/gallery/Archery.jpg",
+    category: "Weapon"
+  },
+  {
+    name: "Bar Scene",
+    path: "/assets/Materials/gallery/Bar_Scene.jpg",
+    category: "Scene"
+  },
+  {
+    name: "BG Galaxy",
+    path: "/assets/Materials/gallery/BG_Galaxy.jpg",
+    category: "Background"
+  },
+  {
+    name: "BG Nebula",
+    path: "/assets/Materials/gallery/BG_Nebula_2.jpg",
+    category: "Background"
+  },
+  // {
+  //   name: "Black Tie",
+  //   path: "/assets/Materials/gallery/Black_Tie.png",
+  //   category: "Outfit"
+  // },
+  // {
+  //   name: "Pixel Warrior",
+  //   path: "/assets/Materials/gallery/Pixel_Warrior.jpg",
+  //   category: "Scene"
+  // },
+  // {
+  //   name: "Power Suit",
+  //   path: "/assets/Materials/gallery/Power_suit.png",
+  //   category: "Outfit"
+  // },
+  // {
+  //   name: "Buff Badger",
+  //   path: "/assets/Materials/gallery/Buff_Badger.png",
+  //   category: "Trait"
+  // },
+  // {
+  //   name: "Cosmic Explorer",
+  //   path: "/assets/Materials/gallery/Cosmic.jpg",
+  //   category: "Background"
+  // },
   {
     name: "Cigar",
     path: "/assets/Materials/gallery/Cigar.jpg",
@@ -100,6 +125,7 @@ const galleryImages = [
     category: "Weapon"
   }
 ];
+
 
 
 
