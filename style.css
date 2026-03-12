@@ -2202,8 +2202,8 @@ body {
   border: 2px solid var(--border);
   border-radius: 6px;
   overflow: hidden;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .nft__metadata-image-small img {
