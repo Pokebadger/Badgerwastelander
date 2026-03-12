@@ -2185,6 +2185,7 @@ body {
   width: 190px;
   height: 100px;
 }
+/*  */
 
 .nft__metadata-image-large img {
   width: 100%;
@@ -2202,8 +2203,8 @@ body {
   border: 2px solid var(--border);
   border-radius: 6px;
   overflow: hidden;
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
 }
 
 .nft__metadata-image-small img {
