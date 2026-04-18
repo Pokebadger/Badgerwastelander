@@ -2,136 +2,301 @@ const galleryImages = [
   {
     name: "Snowboard Badger",
     path: "/assets/Materials/gallery/Snowboard_Badger.jpg",
-    category: "Outfit"
+    category: "Outfit",
+    background: "Snow Park",
+    armor: "Snow Gear",
+    face: "Fierce",
+    head: "Snowboard Helmet",
+    gesture_held: "Snowboard",
+    rarity: 0.000000002,
+    rank: 4
   },
   {
     name: "Yacht Naked Salute",
     path: "/assets/Materials/gallery/Yacht_Naked_Salute.jpg",
-    category: "Background"
+    category: "Background",
+    background: "Yacht",
+    armor: "Naked",
+    face: "Fierce",
+    head: "None",
+    gesture_held: "Salute",
+    rarity: 0.000010020,
+    rank: 29
   },
   {
     name: "Skate Badger",
     path: "/assets/Materials/gallery/Skate_Badger.jpg",
-    category: "Background"
+    category: "Background",
+    background: "Skate Park",
+    armor: "Megadeth T-Shirt",
+    face: "Confident",
+    head: "Skate Helmet",
+    gesture_held: "Skateboard",
+    rarity: 0.000000000,
+    rank: 1
   },
   {
     name: "Recon Sambrero Mustache",
-    path: "assets/Materials/gallery/Recon_Sambrero_Mustache.jpg",
-    category: "Outfit"
+    path: "/assets/Materials/gallery/Recon_Sambrero_Mustache.jpg",
+    category: "Outfit",
+    background: "Wasteland",
+    armor: "Recon Armor",
+    face: "Mustache",
+    head: "Sambrero",
+    gesture_held: "None",
+    rarity: 0.000007906,
+    rank: 28
   },
   {
     name: "Cigar Cowboy Hat",
     path: "/assets/Materials/gallery/Cigar_Cowboy_Hat.jpg",
-    category: "Accessory"
+    category: "Accessory",
+    background: "Wasteland",
+    armor: "Power Armor",
+    face: "Cigar",
+    head: "Cowboy Hat",
+    gesture_held: "None",
+    rarity: 0.000345900,
+    rank: 57
   },
-   {
+  {
     name: "Annoyed",
     path: "/assets/Materials/gallery/Annoyed.jpg",
-    category: "Expression"
+    category: "Expression",
+    background: "Wasteland",
+    armor: "Power Armor",
+    face: "Annoyed",
+    head: "None",
+    gesture_held: "None",
+    rarity: 0.002836381,
+    rank: 91
   },
   {
     name: "Archery",
     path: "/assets/Materials/gallery/Archery.jpg",
-    category: "Weapon"
+    category: "Weapon",
+    background: "Wasteland",
+    armor: "Power Armor",
+    face: "Fierce",
+    head: "None",
+    gesture_held: "None",
+    rarity: 0.000870253,
+    rank: 59
   },
   {
     name: "Bar Scene",
     path: "/assets/Materials/gallery/Bar_Scene.jpg",
-    category: "Scene"
+    category: "Scene",
+    background: "Bar",
+    armor: "Black Flag T-shirt",
+    face: "Drunk",
+    head: "Mohawk",
+    gesture_held: "Cold Pint",
+    rarity: 0.000000004,
+    rank: 7
   },
   {
     name: "BG Galaxy",
     path: "/assets/Materials/gallery/BG_Galaxy.jpg",
-    category: "Background"
+    category: "Background",
+    background: "Galaxy",
+    armor: "Power Armor",
+    face: "Fierce",
+    head: "None",
+    gesture_held: "None",
+    rarity: 0.004572077,
+    rank: 108
   },
   {
     name: "BG Nebula",
     path: "/assets/Materials/gallery/BG_Nebula_2.jpg",
-    category: "Background"
+    category: "Background",
+    background: "Nebula",
+    armor: "Power Armor",
+    face: "Fierce",
+    head: "None",
+    gesture_held: "None",
+    rarity: 0.004572077,
+    rank: 108
   },
   // {
   //   name: "Black Tie",
   //   path: "/assets/Materials/gallery/Black_Tie.png",
-  //   category: "Outfit"
+  //   category: "Outfit",
+  //   background: "Wasteland",
+  //   armor: "Suit",
+  //   face: "Fierce",
+  //   head: "None",
+  //   gesture_held: "None",
+  //   rarity: 0.001094033,
+  //   rank: 64
   // },
   // {
   //   name: "Pixel Warrior",
   //   path: "/assets/Materials/gallery/Pixel_Warrior.jpg",
-  //   category: "Scene"
+  //   category: "Scene",
+  //   background: "Wasteland",
+  //   armor: "Power Armor",
+  //   face: "Fierce",
+  //   head: "None",
+  //   gesture_held: "None",
+  //   rarity: 0.001143019,
+  //   rank: 69
   // },
   // {
   //   name: "Power Suit",
   //   path: "/assets/Materials/gallery/Power_suit.png",
-  //   category: "Outfit"
+  //   category: "Outfit",
+  //   background: "Wasteland",
+  //   armor: "Power Armor",
+  //   face: "Fierce",
+  //   head: "None",
+  //   gesture_held: "None",
+  //   rarity: 0.003282098,
+  //   rank: 99
   // },
   // {
   //   name: "Buff Badger",
   //   path: "/assets/Materials/gallery/Buff_Badger.png",
-  //   category: "Trait"
+  //   category: "Trait",
+  //   background: "Wasteland",
+  //   armor: "Power Armor",
+  //   face: "Fierce",
+  //   head: "None",
+  //   gesture_held: "None",
+  //   rarity: 0.002836381,
+  //   rank: 91
   // },
   // {
   //   name: "Cosmic Explorer",
   //   path: "/assets/Materials/gallery/Cosmic.jpg",
-  //   category: "Background"
+  //   category: "Background",
+  //   background: "Galaxy",
+  //   armor: "Power Armor",
+  //   face: "Fierce",
+  //   head: "None",
+  //   gesture_held: "None",
+  //   rarity: 0.004572077,
+  //   rank: 108
   // },
   {
     name: "Cigar",
     path: "/assets/Materials/gallery/Cigar.jpg",
-    category: "Accessory"
+    category: "Accessory",
+    background: "Wasteland",
+    armor: "Power Armor",
+    face: "Cigar",
+    head: "None",
+    gesture_held: "None",
+    rarity: 0.007090952,
+    rank: 117
   },
   {
     name: "Cold",
     path: "/assets/Materials/gallery/Cold.jpg",
-    category: "Scene"
+    category: "Scene",
+    background: "Arctic",
+    armor: "Frozen Power Armor",
+    face: "Cold Breath",
+    head: "None",
+    gesture_held: "None",
+    rarity: 0.000001210,
+    rank: 18
   },
   {
     name: "Excited",
     path: "/assets/Materials/gallery/Excited.jpg",
-    category: "Expression"
+    category: "Expression",
+    background: "Wasteland",
+    armor: "Power Armor",
+    face: "Excited",
+    head: "None",
+    gesture_held: "Excited",
+    rarity: 0.000064463,
+    rank: 41
   },
   {
     name: "Glasses Sun",
     path: "/assets/Materials/gallery/Glasses_Sun.jpg",
-    category: "Accessory"
+    category: "Accessory",
+    background: "Wasteland",
+    armor: "Power Armor",
+    face: "Glasses Sun",
+    head: "None",
+    gesture_held: "Point",
+    rarity: 0.001418190,
+    rank: 74
   },
   {
     name: "Goggles",
     path: "/assets/Materials/gallery/Goggles.jpg",
-    category: "Accessory"
+    category: "Accessory",
+    background: "Wasteland",
+    armor: "Power Armor",
+    face: "Goggles",
+    head: "None",
+    gesture_held: "None",
+    rarity: 0.001418190,
+    rank: 74
   },
   {
     name: "Gold",
     path: "/assets/Materials/gallery/Gold.jpg",
-    category: "Trait"
+    category: "Trait",
+    background: "Wasteland",
+    armor: "Solid Gold",
+    face: "Fierce",
+    head: "None",
+    gesture_held: "None",
+    rarity: 0.001094033,
+    rank: 64
   },
   {
     name: "Gym Swat Gear",
     path: "/assets/Materials/gallery/Gym_Swat_Gear_Swat_Helmet.jpg",
-    category: "Outfit"
+    category: "Outfit",
+    background: "Gym",
+    armor: "Swat Gear",
+    face: "Fierce",
+    head: "Swat Helmet",
+    gesture_held: "None",
+    rarity: 0.000007169,
+    rank: 25
   },
   {
     name: "Hat Chain",
     path: "/assets/Materials/gallery/Hat_Chain.jpg",
-    category: "Accessory"
+    category: "Accessory",
+    background: "Wasteland",
+    armor: "Badger Coin Power Armor",
+    face: "Fierce",
+    head: "Backwards Ball Cap",
+    gesture_held: "None",
+    rarity: 0.000013342,
+    rank: 30
   },
   {
     name: "Metal Badger",
     path: "/assets/Materials/gallery/Metal_Badger.jpg",
-    category: "Trait"
+    category: "Trait",
+    background: "Lava Fields",
+    armor: "Sepultura T-Shirt",
+    face: "Fierce",
+    head: "Long Hair",
+    gesture_held: "Guitar",
+    rarity: 0.000000002,
+    rank: 4
   },
   {
     name: "Missile Launcher",
     path: "/assets/Materials/gallery/Missile_Launcher.jpg",
-    category: "Weapon"
+    category: "Weapon",
+    background: "Wasteland",
+    armor: "Power Armor",
+    face: "Fierce",
+    head: "None",
+    gesture_held: "Missile Launcher",
+    rarity: 0.000870253,
+    rank: 59
   }
 ];
-
-
-
-
-
-
-
-
-
-
