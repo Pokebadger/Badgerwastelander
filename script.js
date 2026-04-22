@@ -52,14 +52,10 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
       <div class="gallery__item-overlay">
         <h3 class="gallery__item-title">${image.name}</h3>
-        <p class="gallery__item-category">${image.category}</p>
         <p class="gallery__item-category">${image.background}</p>
-        <p class="gallery__item-category">${image.armor}</p>
-        <p class="gallery__item-category">${image.face}</p>
+        <p class="gallery__item-category">Armor: ${image.armor}</p>
         <p class="gallery__item-category">${image.head}</p>
         <p class="gallery__item-category">${image.gesture_held}</p>
-        <p class="gallery__item-category">${image.rarity}</p>
-        <p class="gallery__item-category">${image.rank}</p>
       </div>
     `;
     
