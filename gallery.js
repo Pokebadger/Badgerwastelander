@@ -71,18 +71,30 @@ const galleryImages = [
     rarity: 0.002836381,
     rank: 91
   },
+  // {
+  //   name: "Archery",
+  //   path: "/assets/Materials/gallery/Archery.jpg",
+  //   category: "Weapon",
+  //   background: "Wasteland",
+  //   armor: "Power Armor",
+  //   face: "Fierce",
+  //   head: "None",
+  //   gesture_held: "None",
+  //   rarity: 0.000870253,
+  //   rank: 59
+  // },
   {
-    name: "Archery",
-    path: "/assets/Materials/gallery/Archery.jpg",
-    category: "Weapon",
+    name: "Termibadger",
+    path: "/assets/Materials/gallery/Termibadger.jpg",
+    category: "Body",
     background: "Wasteland",
-    armor: "Power Armor",
+    armor: "Terminator",
     face: "Fierce",
-    head: "None",
+    head: "Terminator",
     gesture_held: "None",
-    rarity: 0.000870253,
-    rank: 59
-  },
+    rarity: 0.000013342,
+    rank: 30
+  }
   {
     name: "Bar Scene",
     path: "/assets/Materials/gallery/Bar_Scene.jpg",
