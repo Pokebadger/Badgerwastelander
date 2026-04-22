@@ -84,18 +84,6 @@ const galleryImages = [
   //   rank: 59
   // },
   {
-    name: "Termibadger",
-    path: "/assets/Materials/gallery/Termibadger.jpg",
-    category: "Body",
-    background: "Wasteland",
-    armor: "Terminator",
-    face: "Fierce",
-    head: "Terminator",
-    gesture_held: "None",
-    rarity: 0.000013342,
-    rank: 30
-  }
-  {
     name: "Bar Scene",
     path: "/assets/Materials/gallery/Bar_Scene.jpg",
     category: "Scene",
