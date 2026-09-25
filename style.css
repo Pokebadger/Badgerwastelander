@@ -325,6 +325,33 @@ body {
   object-fit: cover;
   display: block;
 }
+.hero__cta-buttons {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 2;
+}
+
+.hero__cta-btn {
+  padding: 10px 22px;
+  border: 1px solid rgba(200, 180, 140, 0.6);
+  border-radius: 6px;
+  background: rgba(20, 16, 10, 0.55);
+  color: #e8dcc0;
+  font-family: inherit;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.hero__cta-btn:hover {
+  background: rgba(60, 45, 25, 0.75);
+  transform: translateY(-1px);
+}
 
 /* Placeholder — swap with <img> when ready */
 .hero__image-placeholder {
