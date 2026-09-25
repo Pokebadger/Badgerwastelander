@@ -338,10 +338,10 @@ body {
 }
 .hero__logo-overlay {
   position: absolute;
-  top: 16px;
+  top: 8px;
   left: 50%;
   transform: translateX(-50%);
-  width: min(80%, 480px);
+  width: min(65%, 380px);
   height: auto;
   z-index: 2;
   pointer-events: none;
