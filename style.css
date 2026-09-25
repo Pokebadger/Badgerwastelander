@@ -480,15 +480,6 @@ body {
 /* RESPONSIVE ADJUSTMENTS  */
 
 @media (max-width: 900px) {
-  .hero__split {
-    grid-template-columns: 1fr;
-  }
-  .hero__image-cell {
-    border-left: none;
-    border-top: 3px solid var(--bg);
-    min-height: 260px;
-    margin-top: 10px;
-  }
   .hero__title-cell {
     padding: 3.5rem 2rem;
   }
