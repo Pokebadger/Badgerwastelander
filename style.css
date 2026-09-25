@@ -325,7 +325,7 @@ body {
   border-radius: 0;
   position: relative;
   overflow: hidden;
-  min-height: clamp(340px, 60vh, 640px);
+  aspect-ratio: 1195 / 565;
 }
 
 .hero__bg-img {
@@ -338,7 +338,7 @@ body {
 }
 .hero__logo-overlay {
   position: absolute;
-  top: -6px;
+  top: -10px;
   left: 50%;
   transform: translateX(-50%);
   width: min(65%, 380px);
