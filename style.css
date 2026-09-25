@@ -248,6 +248,13 @@ body {
   flex-direction: column;
 }
 
+.hero__logo {
+  display: block;
+  width: min(90%, 600px);
+  margin: 0 auto 1.5rem;
+  height: auto;
+}
+
 /* ── Top split: left title / right image ── */
 .hero__split {
   display: grid;
