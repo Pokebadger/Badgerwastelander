@@ -321,8 +321,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid var(--bg);
-  border-radius: 30px;
+  border: none;
+  border-radius: 0;
   position: relative;
   overflow: hidden;
   min-height: clamp(340px, 60vh, 640px);
@@ -338,7 +338,7 @@ body {
 }
 .hero__logo-overlay {
   position: absolute;
-  top: 8px;
+  top: -6px;
   left: 50%;
   transform: translateX(-50%);
   width: min(65%, 380px);
